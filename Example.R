@@ -11,7 +11,7 @@ source("data_generation.R")
 
 
 
-##' calculate Random index, given true index vector and full posterior samples
+##' calculate Rand index, given true index vector and full posterior samples
 ##' samples: full sample from pp_Gibbs function (including other pars)
 RI <- function(z_true, samples) {
   n <- length(z_true)
